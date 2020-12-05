@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    /* height:200vh;
+    display:flex;
+    justify-content: center;;
+    align-items: center; */
+}
+.menu {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    float: left;
+    z-index: 1  !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    list-style:none;
+    display:inline
+}
+
+.menu li {
+    display:inline-block;
+}
+
+.container{
+    overflow: hidden;
+    position: relative;
+    left:0;
+    top:0;
+    width:100%;
+    height: 180px;
+}
+
+.container .layer{
+    position:absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
